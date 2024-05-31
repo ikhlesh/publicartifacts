@@ -34,3 +34,5 @@ Add-AppxPackage -Path $outputPath
 $registryPath = "HKCU:\SOFTWARE\Microsoft\Terminal Server Client\Default\AddIns\WebRTC Redirector"
 New-Item -Path $registryPath -Force | Out-Null
 Set-ItemProperty -Path $registryPath -Name "UseHardwareEncoding" -Value 1
+
+#newchange
